@@ -1,0 +1,88 @@
+breakpoint debugger
+41.
+--------------
+add break point getProduct
+attact .net core
+add API
+go to postman and send request
+round arrow , in arrow
+step over, go inside
+42.
+----------------
+api-> Dtos(folder)->ProductToReturnDto.cs
+copy product class and copy
+ProductController -> GetProduct
+->GetProducts
+
+43.
+---------------------
+nuget gallery -> AutoMapper.extensions.Mic.Dependency.Injection
+API=>Helpers(folder)->MappingProfiles.cs
+program.cs -> services.AddAutoMapper(
+
+ProdController -> IMapper
+GetProduct
+
+44.
+---------------------------------
+MappingProfile
+ProductController -> GetPRoducts
+
+45.
+---------------------------------
+appsetting.development.json
+
+helpers->ProductURlResolver
+microsoft.extension.configuration
+mappingprofile
+
+46.
+----------------------------
+API=>wwwroot(folder)->images(paste)
+
+program.cs
+app.UseStaticFiles();
+end of section 4
+
+48.
+-----------------------------
+200,300,400,500 error range
+
+49.
+-----------------------------
+BaseApiController
+ProductController:BaseApiController
+BuggyController
+
+50.
+--------------------------
+API->Errors(folder)->ApiResponse.cs
+In BuggyController GetNotFoundRequest()
+
+51.
+-------------------------
+ErrorController
+program.cs->
+
+52.
+--------------------
+Errors->ApiException
+API->Middleware(folder)->ExceptionMiddleware.cs
+program.cs ->UseMiddleware
+
+53.
+---------------------
+Errors->ApiValidationErrorResponse.cs
+program.cs ->Configure
+
+54.
+-----------------------
+ErrorController-Ignore
+WeatherForecast - Ignore
+55.
+-------------------------
+ProductController -> GetProduct
+
+56.
+-------------------
+extensions->AppicationServicesExtensions
