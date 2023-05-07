@@ -134,5 +134,29 @@ ProductWithFitersForCountSpecification
 -----------------------
 ApplicationServicesExtension
 program.cs
+70.
+--------------------------
+node version manager
+npm install -g @angular/cli@15
+ng version
+
+71.
+--------------------
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+ng new client routing yes css second option
+ng serve
+mkcert(browse on google)
+in "serve" in "options"
+
+72.
+----------------------------
+ngx-bootstrap
+ng add ngx-bootstrap  
+npm install font-awesome
+
+add in styles in angular.json
+"node_modules/bootstrap/dist/css/bootstrap.min.css",
+"node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
+"node_modules/font-awesome/css/font-awesome.min.css",
 
 
